@@ -5,22 +5,30 @@
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
+@font-face {
+    font-family: PPNeueMontreal;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/ppneuemontreal-medium.woff2") format("woff2");
+}
+
 @theme {
     --font-sans:
         "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
-    --color-blue-mf-50: #e9f2ff;
-    --color-blue-mf-100: #d7e8ff;
-    --color-blue-mf-200: #b7d3ff;
-    --color-blue-mf-300: #8cb6ff;
-    --color-blue-mf-400: #5f8cff;
-    --color-blue-mf-500: #3a63ff;
-    --color-blue-mf-600: #1837ff;
-    --color-blue-mf-700: #0e28f4;
-    --color-blue-mf-800: #0f26c4;
-    --color-blue-mf-900: #162a99;
-    --color-blue-mf-950: #0b134a;
+    --font-display: PPNeueMontreal, sans-serif, system-ui, sans-serif;
+    --color-mid-grey: #c3c3c3;
+    --color-light-grey: #f3f3f3;
+}
+
+@layer base {
+    body {
+        font-size: 12px;
+        letter-spacing: 0;
+        font-weight: 0;
+        line-height: 140%;
+    }
 }
 
 #canvas-container {

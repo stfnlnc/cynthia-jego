@@ -53,16 +53,16 @@ const totalDepth = TOTAL_PLANES * spacing;
 
 // Positions X/Y variées pour chaque slot (10 positions uniques)
 const layouts = [
-    { x: 2.0, y: 0.0 },
-    { x: -2.0, y: 0.3 },
-    { x: 1.2, y: -0.4 },
-    { x: -1.5, y: 0.5 },
-    { x: 2.5, y: 0.2 },
+    { x: 1.0, y: 0.0 },
+    { x: -1.0, y: 0.3 },
+    { x: 0.2, y: -0.4 },
+    { x: -0.5, y: 0.5 },
+    { x: 1.5, y: 0.2 },
     { x: -0.8, y: -0.3 },
-    { x: 1.8, y: 0.6 },
-    { x: -2.3, y: -0.1 },
+    { x: 1.2, y: 0.6 },
+    { x: -0.3, y: -0.1 },
     { x: 0.5, y: 0.4 },
-    { x: -1.8, y: 0.2 },
+    { x: -0.8, y: 0.2 },
 ];
 
 const planes = [];
