@@ -9,7 +9,7 @@
     font-family: PPNeueMontreal;
     font-style: normal;
     font-display: swap;
-    src: url("../fonts/ppneuemontreal-medium.woff2") format("woff2");
+    src: url("../fonts/ppneuemontreal-regular.woff2") format("woff2");
 }
 
 @theme {
