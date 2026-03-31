@@ -147,10 +147,10 @@ function updatePlanes() {
 
         // Fade in / fade out selon la distance à la caméra
         const dist = Math.abs(mesh.position.z - camera.position.z);
-        const fadeInStart = 8; // commence à apparaître
+        const fadeInStart = 10; // commence à apparaître
         const fadeInEnd = 3; // pleinement visible
-        const fadeOutStart = 2; // commence à disparaître en passant devant
-        const fadeOutEnd = 0.5; // complètement transparent
+        const fadeOutStart = 1; // commence à disparaître en passant devant
+        const fadeOutEnd = 0.1; // complètement transparent
 
         let opacity = 0;
 
